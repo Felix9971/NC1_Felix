@@ -14,6 +14,11 @@
 		D4DCDC2F281CF8DB00D211BC /* NC1_FelixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC2E281CF8DB00D211BC /* NC1_FelixTests.swift */; };
 		D4DCDC39281CF8DB00D211BC /* NC1_FelixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC38281CF8DB00D211BC /* NC1_FelixUITests.swift */; };
 		D4DCDC3B281CF8DB00D211BC /* NC1_FelixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC3A281CF8DB00D211BC /* NC1_FelixUITestsLaunchTests.swift */; };
+		D4DCDC4A281CFF5100D211BC /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC49281CFF5100D211BC /* ShopView.swift */; };
+		D4DCDC52281D050F00D211BC /* FashonTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC51281D050F00D211BC /* FashonTabView.swift */; };
+		D4DCDC54281D063000D211BC /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC53281D063000D211BC /* MyView.swift */; };
+		D4DCDC56281D072000D211BC /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC55281D072000D211BC /* MoreView.swift */; };
+		D4DCDC58281D4E3300D211BC /* Tshirt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC57281D4E3300D211BC /* Tshirt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D4DCDC34281CF8DB00D211BC /* NC1_FelixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NC1_FelixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DCDC38281CF8DB00D211BC /* NC1_FelixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_FelixUITests.swift; sourceTree = "<group>"; };
 		D4DCDC3A281CF8DB00D211BC /* NC1_FelixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_FelixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4DCDC49281CFF5100D211BC /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		D4DCDC51281D050F00D211BC /* FashonTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashonTabView.swift; sourceTree = "<group>"; };
+		D4DCDC53281D063000D211BC /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		D4DCDC55281D072000D211BC /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		D4DCDC57281D4E3300D211BC /* Tshirt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tshirt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */,
 				D4DCDC1F281CF8D800D211BC /* ContentView.swift */,
+				D4DCDC55281D072000D211BC /* MoreView.swift */,
+				D4DCDC49281CFF5100D211BC /* ShopView.swift */,
+				D4DCDC53281D063000D211BC /* MyView.swift */,
+				D4DCDC51281D050F00D211BC /* FashonTabView.swift */,
+				D4DCDC57281D4E3300D211BC /* Tshirt.swift */,
 				D4DCDC21281CF8DB00D211BC /* Assets.xcassets */,
 				D4DCDC23281CF8DB00D211BC /* Preview Content */,
 			);
@@ -258,7 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4DCDC20281CF8D800D211BC /* ContentView.swift in Sources */,
+				D4DCDC56281D072000D211BC /* MoreView.swift in Sources */,
+				D4DCDC4A281CFF5100D211BC /* ShopView.swift in Sources */,
+				D4DCDC58281D4E3300D211BC /* Tshirt.swift in Sources */,
+				D4DCDC54281D063000D211BC /* MyView.swift in Sources */,
 				D4DCDC1E281CF8D800D211BC /* NC1_FelixApp.swift in Sources */,
+				D4DCDC52281D050F00D211BC /* FashonTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

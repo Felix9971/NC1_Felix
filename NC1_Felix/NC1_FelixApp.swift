@@ -11,7 +11,7 @@ import SwiftUI
 struct NC1_FelixApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FashionTabView()
         }
     }
 }

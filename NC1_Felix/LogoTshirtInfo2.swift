@@ -1,5 +1,5 @@
 //
-//  LogoTshirtInfo.swift
+//  LogoTshirtInfo2.swift
 //  NC1_Felix
 //
 //  Created by 양원모 on 2022/05/01.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LogoTshirtInfo: View {
+struct LogoTshirtInfo2: View {
     
     var tshirt: Tshirt
     
@@ -28,6 +28,7 @@ struct LogoTshirtInfo: View {
             HStack{
                 Spacer().frame(width: 39)
                 Text(tshirt.title)
+                    .foregroundColor(.white)
                     .font(.system(size: 30))
                     .bold()
                 Spacer()
@@ -42,6 +43,7 @@ struct LogoTshirtInfo: View {
                 Spacer().frame(width: 39)
                 Text(tshirt.description)
                     .font(.system(size: 16))
+                    .foregroundColor(.white)
                     .lineSpacing(4)
                 Spacer()
             }

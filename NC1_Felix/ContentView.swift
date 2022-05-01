@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+extension Color {
+    static let kitsune = Color("kitsune")
+    static let polo = Color("polo")
+}
+
 struct ContentView: View {
     
     var tshirts: [Tshirt] = tshirtData
@@ -20,7 +25,7 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFill()
                         .frame(width: 390, height: 506)
-//                        .background(LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom))
+                        .background(LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom))
                     
                     
                     VStack{
@@ -41,11 +46,29 @@ struct ContentView: View {
                 
                 Spacer().frame(height: 120)
                 
-                LogoTshirtInfo(tshirt: kitusne)
-                
+                ZStack{
+                    VStack{
+                        Spacer().frame(height: 50)
+                        Rectangle()
+                            .frame(height: 1550)
+                            .foregroundColor(.kitsune)
+                    }
+                    LogoTshirtInfo2(tshirt: kitusne)
+                }
+                    
+
                 LogoTshirtInfo(tshirt: ami)
                 
-                LogoTshirtInfo(tshirt: polo)
+                
+                ZStack{
+                    VStack{
+                        Spacer().frame(height: 50)
+                        Rectangle()
+                            .frame(height: 1570)
+                            .foregroundColor(.polo)
+                    }
+                    LogoTshirtInfo2(tshirt: polo)
+                }
                 
                 LogoTshirtInfo(tshirt: stussy)
                 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4B84A8D281E30320081522F /* LogoTshirtInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */; };
 		D4DCDC1E281CF8D800D211BC /* NC1_FelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */; };
 		D4DCDC20281CF8D800D211BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC1F281CF8D800D211BC /* ContentView.swift */; };
 		D4DCDC22281CF8DB00D211BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DCDC21281CF8DB00D211BC /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTshirtInfo.swift; sourceTree = "<group>"; };
 		D4DCDC1A281CF8D800D211BC /* NC1_Felix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1_Felix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_FelixApp.swift; sourceTree = "<group>"; };
 		D4DCDC1F281CF8D800D211BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,12 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */,
+				D4DCDC51281D050F00D211BC /* FashonTabView.swift */,
 				D4DCDC1F281CF8D800D211BC /* ContentView.swift */,
+				D4DCDC57281D4E3300D211BC /* Tshirt.swift */,
+				D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */,
 				D4DCDC55281D072000D211BC /* MoreView.swift */,
 				D4DCDC49281CFF5100D211BC /* ShopView.swift */,
 				D4DCDC53281D063000D211BC /* MyView.swift */,
-				D4DCDC51281D050F00D211BC /* FashonTabView.swift */,
-				D4DCDC57281D4E3300D211BC /* Tshirt.swift */,
 				D4DCDC21281CF8DB00D211BC /* Assets.xcassets */,
 				D4DCDC23281CF8DB00D211BC /* Preview Content */,
 			);
@@ -274,6 +277,7 @@
 			files = (
 				D4DCDC20281CF8D800D211BC /* ContentView.swift in Sources */,
 				D4DCDC56281D072000D211BC /* MoreView.swift in Sources */,
+				D4B84A8D281E30320081522F /* LogoTshirtInfo.swift in Sources */,
 				D4DCDC4A281CFF5100D211BC /* ShopView.swift in Sources */,
 				D4DCDC58281D4E3300D211BC /* Tshirt.swift in Sources */,
 				D4DCDC54281D063000D211BC /* MyView.swift in Sources */,

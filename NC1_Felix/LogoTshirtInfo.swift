@@ -26,10 +26,13 @@ struct LogoTshirtInfo: View {
             Spacer().frame(height: 25)
 
             HStack{
-//                Spacer().frame(width: 39)
+                Spacer().frame(width: 39)
                 Text(tshirt.title)
                     .font(.system(size: 30))
                     .bold()
+                Spacer()
+                    
+                    
             }
                 
 
@@ -39,6 +42,38 @@ struct LogoTshirtInfo: View {
                 Spacer().frame(width: 39)
                 Text(tshirt.description)
                     .font(.system(size: 16))
+                Spacer()
+            }
+            
+            Spacer().frame(height: 80)
+            
+            HStack{
+                Image(tshirt.coodi1)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 326, height: 326)
+                    .clipShape(Rectangle())
+                Spacer().frame(width: 64)
+            }
+            
+            
+            HStack{
+                Spacer().frame(width: 64)
+                Image(tshirt.coodi2)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 326, height: 326)
+                    .clipShape(Rectangle())
+            }
+        
+            
+            HStack{
+                Image(tshirt.coodi3)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 326, height: 326)
+                    .clipShape(Rectangle())
+                Spacer().frame(width: 64)
             }
             
             Spacer().frame(height: 100)

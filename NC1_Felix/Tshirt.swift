@@ -28,7 +28,7 @@ var kitusne : Tshirt = Tshirt(
 
 var ami : Tshirt = Tshirt(
                          title: "아미",
-                         description: "하트와 알파벳 A의 로고, \n'AMI'는 프랑스어로 '친구'라는 의미를 \n가지고 있어요. 친구란느 이름처럼 친구들이 \n입고 싶어하는, 과한 느낌을 지양하고 \n자연스러운 디자인의 스타일을 추구합니다.",
+                         description: "하트와 알파벳 A의 로고, \n'AMI'는 프랑스어로 '친구'라는 의미를 가지고 있어요. \n친구란느 이름처럼 친구들이 입고 싶어하는, \n과한 느낌을 지양하고 자연스러운 디자인의 스타일을 추구합니다.",
                          mainImage: "amiLogoTshirt",
                          coodi1: "amiLogoCoodi1",
                          coodi2: "amiLogoCoodi2",
@@ -37,7 +37,7 @@ var ami : Tshirt = Tshirt(
 
 var polo : Tshirt = Tshirt(
                           title: "폴로 랄츠 로렌",
-                          description: "아메리칸 클래식, \n미국의 상류 스포츠인 폴로에서 염감을 받아 \n전통적인 아메리칸 스타일과 럭셔리한 스토티 \n콘셉트로 세대를 아루른 세련됨을 제시해요. \n폴로 랄프 로렌의 상징성인 로고는 현대적이고 \n탁월한 헤리티지로 인정받고 있습니다.",
+                          description: "아메리칸 클래식, \n미국의 상류 스포츠인 폴로에서 염감을 받아 \n전통적인 아메리칸 스타일과 럭셔리한 스포티 \n콘셉트로 세대를 아루른 세련됨을 제시해요. \n폴로 랄프 로렌의 상징성인 로고는 현대적이고 \n탁월한 헤리티지로 인정받고 있습니다.",
                           mainImage: "poloLogoTshirt",
                           coodi1: "poloLogoCoodi1",
                           coodi2: "poloLogoCoodi2",

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D4B84A8D281E30320081522F /* LogoTshirtInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */; };
 		D4B84A8F281E77090081522F /* LogoTshirtInfo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A8E281E77090081522F /* LogoTshirtInfo2.swift */; };
+		D4B84A91281FA0E50081522F /* RecommendPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A90281FA0E50081522F /* RecommendPost.swift */; };
+		D4B84A93281FE7340081522F /* RecommendPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A92281FE7340081522F /* RecommendPostView.swift */; };
 		D4DCDC1E281CF8D800D211BC /* NC1_FelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */; };
 		D4DCDC20281CF8D800D211BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC1F281CF8D800D211BC /* ContentView.swift */; };
 		D4DCDC22281CF8DB00D211BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DCDC21281CF8DB00D211BC /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTshirtInfo.swift; sourceTree = "<group>"; };
 		D4B84A8E281E77090081522F /* LogoTshirtInfo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTshirtInfo2.swift; sourceTree = "<group>"; };
+		D4B84A90281FA0E50081522F /* RecommendPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPost.swift; sourceTree = "<group>"; };
+		D4B84A92281FE7340081522F /* RecommendPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPostView.swift; sourceTree = "<group>"; };
 		D4DCDC1A281CF8D800D211BC /* NC1_Felix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1_Felix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_FelixApp.swift; sourceTree = "<group>"; };
 		D4DCDC1F281CF8D800D211BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */,
 				D4B84A8E281E77090081522F /* LogoTshirtInfo2.swift */,
 				D4DCDC55281D072000D211BC /* MoreView.swift */,
+				D4B84A90281FA0E50081522F /* RecommendPost.swift */,
+				D4B84A92281FE7340081522F /* RecommendPostView.swift */,
 				D4DCDC49281CFF5100D211BC /* ShopView.swift */,
 				D4DCDC53281D063000D211BC /* MyView.swift */,
 				D4DCDC21281CF8DB00D211BC /* Assets.xcassets */,
@@ -284,9 +290,11 @@
 				D4B84A8F281E77090081522F /* LogoTshirtInfo2.swift in Sources */,
 				D4DCDC4A281CFF5100D211BC /* ShopView.swift in Sources */,
 				D4DCDC58281D4E3300D211BC /* Tshirt.swift in Sources */,
+				D4B84A91281FA0E50081522F /* RecommendPost.swift in Sources */,
 				D4DCDC54281D063000D211BC /* MyView.swift in Sources */,
 				D4DCDC1E281CF8D800D211BC /* NC1_FelixApp.swift in Sources */,
 				D4DCDC52281D050F00D211BC /* FashonTabView.swift in Sources */,
+				D4B84A93281FE7340081522F /* RecommendPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

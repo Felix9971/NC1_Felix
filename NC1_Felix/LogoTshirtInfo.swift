@@ -77,7 +77,6 @@ struct LogoTshirtInfo: View {
                 Spacer().frame(width: 64)
             }
             
-            Spacer().frame(height: 150)
                 
             
         }

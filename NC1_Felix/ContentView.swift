@@ -25,7 +25,7 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFill()
                         .frame(width: 390, height: 506)
-                        .background(LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom))
+//                        .background(LinearGradient(gradient: Gradient(colors: [.white, .black]), startPoint: .top, endPoint: .bottom))
                     
                     
                     VStack{
@@ -55,10 +55,12 @@ struct ContentView: View {
                     }
                     LogoTshirtInfo2(tshirt: kitusne)
                 }
-                    
+                
+                Spacer().frame(height: 180)
 
                 LogoTshirtInfo(tshirt: ami)
                 
+                Spacer().frame(height: 180)
                 
                 ZStack{
                     VStack{
@@ -70,7 +72,11 @@ struct ContentView: View {
                     LogoTshirtInfo2(tshirt: polo)
                 }
                 
+                Spacer().frame(height: 180)
+                
                 LogoTshirtInfo(tshirt: stussy)
+                
+                Spacer().frame(height: 150)
                 
             }
         }

@@ -19,7 +19,7 @@ struct FashionTabView : View {
             MoreView()
                 .tabItem{
                     Image(systemName: "plus.app.fill")
-                    Text("Home")
+                    Text("More")
                 }
             
             ShopView()

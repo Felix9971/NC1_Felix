@@ -1,32 +1,18 @@
 //
-//  MoreView.swift
+//  RecommendPostView.swift
 //  NC1_Felix
 //
-//  Created by 양원모 on 2022/04/30.
+//  Created by 양원모 on 2022/05/02.
 //
 
 import SwiftUI
 
-struct MoreView: View {
+struct RecommendPostView: View {
+    
+    var recommendPost: RecommendPost
+    
     var body: some View {
         VStack{
-            HStack{
-                Spacer().frame(width: 20)
-                
-                Text("Recommend Post")
-                    .font(.system(size: 24))
-                    .bold()
-                
-                Spacer()
-            }
-            
-            Spacer().frame(height: 0)
-            
-            Rectangle()
-                .frame(width: 352, height: 3)
-            
-            Spacer().frame(height: 22)
-            
             HStack{
                 Spacer().frame(width: 22)
                 
@@ -57,14 +43,13 @@ struct MoreView: View {
                     
                 Spacer()
             }
-            
         }
     }
 }
 
-struct MoreView_Previews: PreviewProvider {
-    static var previews: some View {
-        MoreView()
-    }
-}
+//struct RecommendPostView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RecommendPostView()
+//    }
+//}
 

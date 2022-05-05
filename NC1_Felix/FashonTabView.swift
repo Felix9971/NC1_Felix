@@ -34,6 +34,7 @@ struct FashionTabView : View {
                     Text("My")
                 }
         }
+        .accentColor(.black)
     }
 }
 

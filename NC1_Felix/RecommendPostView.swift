@@ -16,7 +16,7 @@ struct RecommendPostView: View {
             HStack{
                 Spacer().frame(width: 22)
                 
-                Image("shorts")
+                Image(recommendPost.RecommendPostImage)
                     .resizable()
                     .scaledToFill()
                     .frame(width: 370, height: 211)
@@ -26,7 +26,7 @@ struct RecommendPostView: View {
             HStack{
                 Spacer().frame(width: 22)
                 
-                Text("반바지")
+                Text(recommendPost.title)
                     .font(.system(size: 30))
                     .bold()
                 
@@ -38,11 +38,14 @@ struct RecommendPostView: View {
             HStack{
                 Spacer().frame(width: 22)
                 
-                Text("올 여름 다체로운 색상의 반바지 어떤가요? \n포인트로 사용할 수 있는 반바지들을 둘러보세요.")
-                    .font(.system(size: 18))
+                Text(recommendPost.subTitle)
+                    .font(.system(size: 15))
+                    .multilineTextAlignment(.leading)
                     
                 Spacer()
             }
+            
+            
         }
     }
 }

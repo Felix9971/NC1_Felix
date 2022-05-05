@@ -8,56 +8,110 @@
 import SwiftUI
 
 struct MoreView: View {
+    
+    var recommendPosts: [RecommendPost] = RecommendPostData
+    
+    @State private var isOnButton = false
+    
     var body: some View {
-        VStack{
-            HStack{
-                Spacer().frame(width: 20)
-                
-                Text("Recommend Post")
-                    .font(.system(size: 24))
-                    .bold()
-                
-                Spacer()
-            }
+//        if isOnButton{
+//            PostView(isOnButton: $isOnButton)
+//        }
+        NavigationView {
+        ScrollView{
             
-            Spacer().frame(height: 0)
+            Spacer().frame(height: 30)
+            
+            VStack{
+                
+                HStack{
+                    Spacer().frame(width: 20)
+                    Text("Recommend Post")
+                        .font(.system(size: 24))
+                        .bold()
+                    Spacer()
+                }
+                
+                Spacer().frame(height: 0)
+                
+                Rectangle()
+                    .frame(width: 352, height: 3)
+                
+                Spacer().frame(height: 20)
+                
+                NavigationLink(destination: PostView()) {
+                RecommendPostView(recommendPost: shorts)
+                }
+                .foregroundColor(.black)
+                
+//                Button{
+//                    isOnButton.toggle()
+//                } label: {
+//                    RecommendPostView(recommendPost: shorts)
+//                }
+//                .foregroundColor(.black)
+//                .fullScreenCover(isPresented: $isOnButton, content: {PostView(isOnButton: $isOnButton)})
+                
+                Spacer().frame(height: 10)
+                
+                Rectangle()
+                    .fill(Color.gray)
+                    .frame(width: 352, height: 1)
+                
+                Spacer().frame(height: 22)
+                
+                NavigationLink(destination: PostView()){
+                    RecommendPostView(recommendPost: summerCoodi)
+                }
+                .foregroundColor(.black)
+                
+//                Button{
+//                    isOnButton.toggle()
+//                } label: {
+//                    RecommendPostView(recommendPost: summerCoodi)
+//                }
+//                .foregroundColor(.black)
+                
+            }
+            Spacer().frame(height: 10)
             
             Rectangle()
-                .frame(width: 352, height: 3)
+                .fill(Color.gray)
+                .frame(width: 352, height: 1)
             
             Spacer().frame(height: 22)
             
-            HStack{
-                Spacer().frame(width: 22)
-                
-                Image("shorts")
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 370, height: 211)
-                    .clipShape(Rectangle())
+            NavigationLink(destination: PostView()) {
+            RecommendPostView(recommendPost: lightBlueJeans)
             }
+            .foregroundColor(.black)
             
-            HStack{
-                Spacer().frame(width: 22)
-                
-                Text("반바지")
-                    .font(.system(size: 30))
-                    .bold()
-                
-                Spacer()
-            }
+//            Button{
+//                isOnButton.toggle()
+//            } label: {
+//                RecommendPostView(recommendPost: lightBlueJeans)
+//            }
+//            .foregroundColor(.black)
             
-            Spacer().frame(height: 5)
+            Spacer().frame(height: 100)
             
-            HStack{
-                Spacer().frame(width: 22)
-                
-                Text("올 여름 다체로운 색상의 반바지 어떤가요? \n포인트로 사용할 수 있는 반바지들을 둘러보세요.")
-                    .font(.system(size: 18))
-                    
-                Spacer()
-            }
+//            HStack{
+//                Spacer().frame(width: 20)
+//                Text("Latest Post")
+//                    .font(.system(size: 24))
+//                    .bold()
+//                Spacer()
+//            }
+//
+//            Spacer().frame(height: 0)
+//
+//            Rectangle()
+//                .frame(width: 352, height: 3)
+//
+//            Spacer().frame(height: 20)
             
+        }
+        .navigationBarHidden(true)
         }
     }
 }

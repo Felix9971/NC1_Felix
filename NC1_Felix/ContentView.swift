@@ -12,6 +12,7 @@ extension Color {
     static let polo = Color("polo")
 }
 
+// lazyvstack
 struct ContentView: View {
     
     var tshirts: [Tshirt] = tshirtData

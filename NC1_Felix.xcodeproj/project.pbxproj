@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48DA30F2820EEA500F7D8A1 /* MoreNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DA30E2820EEA500F7D8A1 /* MoreNavigationView.swift */; };
 		D4B84A8D281E30320081522F /* LogoTshirtInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */; };
 		D4B84A8F281E77090081522F /* LogoTshirtInfo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A8E281E77090081522F /* LogoTshirtInfo2.swift */; };
 		D4B84A91281FA0E50081522F /* RecommendPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A90281FA0E50081522F /* RecommendPost.swift */; };
 		D4B84A93281FE7340081522F /* RecommendPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A92281FE7340081522F /* RecommendPostView.swift */; };
+		D4B84A9528200B340081522F /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A9428200B340081522F /* PostView.swift */; };
+		D4B84A9728200D540081522F /* PostNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B84A9628200D540081522F /* PostNavigationView.swift */; };
 		D4DCDC1E281CF8D800D211BC /* NC1_FelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */; };
 		D4DCDC20281CF8D800D211BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCDC1F281CF8D800D211BC /* ContentView.swift */; };
 		D4DCDC22281CF8DB00D211BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DCDC21281CF8DB00D211BC /* Assets.xcassets */; };
@@ -43,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D48DA30E2820EEA500F7D8A1 /* MoreNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreNavigationView.swift; sourceTree = "<group>"; };
 		D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTshirtInfo.swift; sourceTree = "<group>"; };
 		D4B84A8E281E77090081522F /* LogoTshirtInfo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTshirtInfo2.swift; sourceTree = "<group>"; };
 		D4B84A90281FA0E50081522F /* RecommendPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPost.swift; sourceTree = "<group>"; };
 		D4B84A92281FE7340081522F /* RecommendPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPostView.swift; sourceTree = "<group>"; };
+		D4B84A9428200B340081522F /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		D4B84A9628200D540081522F /* PostNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNavigationView.swift; sourceTree = "<group>"; };
 		D4DCDC1A281CF8D800D211BC /* NC1_Felix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1_Felix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DCDC1D281CF8D800D211BC /* NC1_FelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_FelixApp.swift; sourceTree = "<group>"; };
 		D4DCDC1F281CF8D800D211BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,8 +125,11 @@
 				D4B84A8C281E30320081522F /* LogoTshirtInfo.swift */,
 				D4B84A8E281E77090081522F /* LogoTshirtInfo2.swift */,
 				D4DCDC55281D072000D211BC /* MoreView.swift */,
+				D48DA30E2820EEA500F7D8A1 /* MoreNavigationView.swift */,
+				D4B84A9628200D540081522F /* PostNavigationView.swift */,
 				D4B84A90281FA0E50081522F /* RecommendPost.swift */,
 				D4B84A92281FE7340081522F /* RecommendPostView.swift */,
+				D4B84A9428200B340081522F /* PostView.swift */,
 				D4DCDC49281CFF5100D211BC /* ShopView.swift */,
 				D4DCDC53281D063000D211BC /* MyView.swift */,
 				D4DCDC21281CF8DB00D211BC /* Assets.xcassets */,
@@ -293,7 +302,10 @@
 				D4B84A91281FA0E50081522F /* RecommendPost.swift in Sources */,
 				D4DCDC54281D063000D211BC /* MyView.swift in Sources */,
 				D4DCDC1E281CF8D800D211BC /* NC1_FelixApp.swift in Sources */,
+				D48DA30F2820EEA500F7D8A1 /* MoreNavigationView.swift in Sources */,
 				D4DCDC52281D050F00D211BC /* FashonTabView.swift in Sources */,
+				D4B84A9728200D540081522F /* PostNavigationView.swift in Sources */,
+				D4B84A9528200B340081522F /* PostView.swift in Sources */,
 				D4B84A93281FE7340081522F /* RecommendPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NC1_Felix/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -481,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NC1_Felix/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
